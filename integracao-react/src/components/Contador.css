@@ -1,0 +1,9 @@
+button {
+  font-size: 2.5rem;
+  color: white;
+  background-color: dodgerblue;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  outline: none;
+}
