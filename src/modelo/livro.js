@@ -1,4 +1,6 @@
-export default class Livro {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+class Livro {
     nome;
     preco;
     desconto;
@@ -11,4 +13,5 @@ export default class Livro {
         return this.preco * (1 - this.desconto);
     }
 }
+exports.default = Livro;
 //# sourceMappingURL=livro.js.map

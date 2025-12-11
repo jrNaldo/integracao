@@ -1,5 +1,7 @@
+import $ from 'jquery'
 import Livro from "./modelo/livro.js";
 
 const livro = new Livro('Dom Quixote', 100, 0.10)
-
-console.log(livro.precoComDesconto())
+$('body').append(`<h1>${livro.nome}</h1>`)
+$('body').append(`<h2>Preço: R$${livro.precoComDesconto()}</h2>`)
+// console.log(livro.precoComDesconto())
