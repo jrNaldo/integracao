@@ -9,10 +9,15 @@
 
 <script lang="ts">
     import Vue from 'vue';
-    export default Vue.extend({
+    export default  Vue.extend({
+        props:{
+            valorInicial: {
+                type: Number
+            }
+        },
         data() {
             return {
-                valor: 0
+                valor: this.valorInicial || 0 
             }
         },
         methods: {
